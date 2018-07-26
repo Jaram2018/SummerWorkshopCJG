@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(62, 236, 236);
+}
+
+.board {
+    height: 440px;
+    width: 480px;
+    margin: 0 auto;
+}
+
+.row {
+    height: 28px;
+    width: 480px;
+}
+
+.mine {
+    height: 26px;
+    width: 44px;
+    border: solid  rgb(73, 73, 73) 2px;
+    background-color: rgba(0, 0, 0, 0.342);
+    background-size: 44px 26px;
+    display: inline-block;
+}
+
+.mine:hover {
+    border: solid red 2px;
+}
+
+h1 {
+    text-align: center;
+}
